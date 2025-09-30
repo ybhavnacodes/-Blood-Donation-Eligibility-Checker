@@ -1,0 +1,26 @@
+
+#include<stdio.h>
+int main()
+{
+    int age, weight;
+    printf("enter your age \t");
+     scanf("%d",&age);
+   
+     
+     if( age >=18&& age <=55 )
+     
+     {  printf("please enter your weight ");
+        scanf("%d",&weight);
+        
+         if(weight>=45)
+         printf("Eligible for donating blood \n");
+         else printf("you are not eligible for donating blood");
+         
+     }
+     else {
+         printf("not eligible for donating blood \n");
+     }
+    
+    
+    return 0;
+}
